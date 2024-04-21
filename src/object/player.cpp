@@ -88,8 +88,10 @@ const float MAX_CLIMB_YM = 128;
 const float MAX_GLIDE_YM = 128;
 /** sliding down walls velocity */
 const float MAX_WALLCLING_YM = 64;
+/** How much should walk speed be multiplied by*/
+const float WALK_SPEED_MULTIPLIER = 1.5;
 /** instant velocity when tux starts to walk */
-const float WALK_SPEED = 100;
+const float WALK_SPEED = 100 * WALK_SPEED_MULTIPLIER;
 /** rate at which m_boost decreases */
 const float BOOST_DECREASE_RATE = 500;
 /** rate at which the speed decreases if going above maximum */
